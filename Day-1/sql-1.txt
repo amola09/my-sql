@@ -1,0 +1,41 @@
+TO LOGIN MYSQL -> Command prompt
+
+> mysql -u root -p
+>enter password : tiger
+
+
+TO SHOW DATABASE
+mysql>show databases;
+
+TO USE DATABASE
+mysql>use batch12pm
+
+TO create table
+mysql>create table employee(
+    name varchar(40),
+    age int,
+    salary int
+);
+
+TO SHOW tabels:
+mysql> describe tables;
+
+TO drop tables and database :
+
+mysql>drop table employee;
+mysql>drop database batch12pm;
+mysql>select database();
+mysql>show databases;
+
+if no database is created then hoe to create database
+
+mysql>create database batch12pm;
+
+mysql>create table batch12pm.employee(name varchar(40), age int, salary int);
+
+
+
+
+
+
+
